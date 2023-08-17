@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regex.App", "Regex.App\Regex.App.csproj", "{C208C0F9-2ECA-4CD3-ACAE-1C13A2ECD1BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRegex.App", "Regex.App\MyRegex.App.csproj", "{C208C0F9-2ECA-4CD3-ACAE-1C13A2ECD1BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
