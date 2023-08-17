@@ -1,0 +1,48 @@
+User
+I have a c#/.net6 application with:
+- 1 class library containing a RegexHelper class with 1 method: bool ValidateString(string input, int maxLength)
+- 1 test library with unit tests for the regex funtion. The framework used for tests is xunit.
+The main function ValidateString(string input, int maxLength):
+-validates the maximum string length (passed as parameter); it returns a match if the string length is within the acceptable range and a non-match if it is not. 
+-validates that the string contains at least one uppercase letter, one lowercase letter, one digit, and one special character from a predefined list: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~. It returns a match if the criteria are met and a non-match if they are not. 
+-validates that the string does not contain any whitespace characters (spaces, tabs, or newlines). This returns a non-match if any whitespace characters are found. 
+
+Update Readme.md with:
+-Application description: 1 paragraph, 2-5 Sentences. 
+-Regex implementation description: 1 paragraph, 4-10 Sentences. 
+-Information on how to run the developed application locally. 
+
+ChatGPT
+Readme.md
+
+Application Description
+The C#/.NET 6 application provides a utility to validate strings based on specific criteria. It contains a RegexHelper class that offers a ValidateString method to ensure that a given input conforms to the defined set of rules related to length, character types, and whitespace.
+
+Regex Implementation Description
+The ValidateString function in the RegexHelper class uses regular expressions to perform its validation. It checks if the string's length is within the specified maximum limit. Furthermore, the function ensures that the string includes at least one uppercase letter, one lowercase letter, one digit, and one special character from a predefined list (!"#$%&'()*+,-./:;<=>?@[\]^_{|}~`). Additionally, the regex confirms that the string does not contain any whitespace characters, including spaces, tabs, or newlines. Any deviations from these criteria will result in the function returning a non-match.
+
+Running the Application Locally
+Ensure you have .NET 6 SDK installed on your machine. You can download and install it from the official Microsoft website.
+Clone the repository to your local machine.
+bash
+Copy code
+git clone [repository_url]
+Navigate to the directory containing the solution (.sln) file.
+bash
+Copy code
+cd path_to_solution_directory
+Restore the necessary packages.
+Copy code
+dotnet restore
+Build the application.
+Copy code
+dotnet build
+To run the test library and validate the functionality, navigate to the test library directory and execute the following command:
+bash
+Copy code
+dotnet test
+If you wish to run the main application, navigate to the directory of the main project and use:
+arduino
+Copy code
+dotnet run
+By following the above steps, you should be able to run the application and its tests on your local machine.
