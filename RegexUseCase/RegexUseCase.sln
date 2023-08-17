@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRegex.App", "Regex.App\MyRegex.App.csproj", "{C208C0F9-2ECA-4CD3-ACAE-1C13A2ECD1BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRegex.Test", "MyRegex.Test\MyRegex.Test.csproj", "{C048ECF2-496D-4FDB-A12D-84C90A0AC593}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C208C0F9-2ECA-4CD3-ACAE-1C13A2ECD1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C208C0F9-2ECA-4CD3-ACAE-1C13A2ECD1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C208C0F9-2ECA-4CD3-ACAE-1C13A2ECD1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C048ECF2-496D-4FDB-A12D-84C90A0AC593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C048ECF2-496D-4FDB-A12D-84C90A0AC593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C048ECF2-496D-4FDB-A12D-84C90A0AC593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C048ECF2-496D-4FDB-A12D-84C90A0AC593}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
